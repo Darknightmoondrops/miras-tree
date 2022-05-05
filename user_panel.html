@@ -315,10 +315,15 @@
                 <p>ویرایش حساب کاربری</p>
             </div>
             <div class="panels-details" onclick="SelectPanel(2)">
+                <div class="edit-prof-icon"></div>
+                <p>  تیکتینگ</p>
+            </div>
+            
+            <div class="panels-details" onclick="SelectPanel(3)">
                 <div class="order-history-icon"></div>
                 <p>سابقه سفارش </p>
             </div>
-            <div class="panels-details" onclick="SelectPanel(3)">
+            <div class="panels-details" onclick="SelectPanel(4)">
                 <div class="comments-icon"></div>
                 <p>نظرات</p>
             </div>
@@ -343,6 +348,24 @@
                 <button type="button" class="user-panel-btn">ویرایش</button>
             </div>
 
+            <div id="edit-acount" class="user-panel-tab panel-page">
+                  <div class="teket-div">
+                    <h2>سیستم پشتیبانی</h2>
+                    <p class="teket-p">موضوع تیکت</p>
+                    <input class="input" type="text" name="" id="" placeholder="موضوع تیکت را وارد کنید ">
+                    <p class="teket-p">پیام</p>
+                    <textarea class="textarea-input" type="password" name="" id="" placeholder=" متن پیام را وارد کنید"></textarea>
+                    <div class="form-div">
+                        <div class="form-box">
+                            <input type="file" name="" id="" >
+                            <button type="submit" class="send-teket"> ارسال تیکت </button>
+                        </div>
+                       
+                    </div>
+                    
+                  </div>
+            </div>
+            
             <div id="order-history" class="order-history panel-page">
                 <h3 class="user-panel-title">سابقه سفارش</h3>
                 <div class="user-history-mainbox">

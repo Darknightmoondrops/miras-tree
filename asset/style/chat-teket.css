@@ -1,0 +1,88 @@
+body{
+    direction: rtl;
+    background-color: azure;
+
+    
+}
+.main-div{
+    margin:auto;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: block;
+}
+.top-page{
+    width: 90%;
+    height: auto;
+    display: flex;
+    border-bottom: 1px solid #707070;
+    margin: auto;
+}
+.top-page-box{
+    width: 45%;
+    margin: auto;
+}
+.ui-received-chat{
+    direction: ltr;
+    width: 60%;
+    display: flex;
+}
+.chat-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../icons/icon-8.png);
+    background-repeat: round;
+}
+.chat-sender-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../icons/icon-21.png);
+    background-repeat: round;
+}
+.chat-text-box{
+    background-color: rgba(21, 93, 235, 0.801);
+    width: 60%;
+    height: 200px;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 25px;
+
+
+}
+.ui-send-chat{
+    direction: rtl;
+    width: 60%;
+    display: flex;
+}
+.chat-send-text-box{
+    margin-top: 25px;
+    background-color: rgba(246, 38, 1, 0.801);
+    width: 60%;
+    height: 200px;
+    margin-left: 15px;
+    border-radius: 5px;
+
+
+}
+.send-text{
+    box-shadow: 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+    width: 100%;
+
+}
+.send-text-inp{
+    width: 70%;
+    height: 35px;
+    padding-right: 10px;
+
+}
+.send-icon{
+    width: 15%;
+    height: 35px;
+    background-image: url(../icons/icons8-email-send-48.png);
+}
+.send-file{
+    visibility: hidden;
+}
