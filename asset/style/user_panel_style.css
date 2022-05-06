@@ -32,7 +32,15 @@ body {
 }
 
 .edit-prof-icon {
-    background-image: url(../icons/icon-42.png);
+    background-image: url(../icons/icons8-edit-48.png);
+    width: 61px;
+    background-repeat: round;
+    height: 54px;
+    display: block;
+    margin: 25px 8px;
+}
+.ticketing-icon{
+    background-image: url(../icons/icons8-two-tickets-50.png);
     width: 61px;
     background-repeat: round;
     height: 54px;
@@ -41,7 +49,7 @@ body {
 }
 
 .order-history-icon {
-    background-image: url(../icons/icon-52.png);
+    background-image: url(../icons/icons8-purchase-order-64.png);
     width: 61px;
     background-repeat: round;
     height: 54px;
@@ -93,25 +101,17 @@ body {
 }
 
 .comments-icon {
-    background-image: url(../icons/icon-46.png);
-    width: 61px;
+    background-image: url(../icons/icons8-comments-40.png);
+    width: 50px;
     background-repeat: round;
     height: 54px;
     display: block;
     margin: 25px 8px;
 }
 
-.comments-icon {
-    background-image: url(../icons/icon-47.png);
-    width: 61px;
-    background-repeat: round;
-    height: 54px;
-    display: block;
-    margin: 25px 8px;
-}
 
 .exit-icon {
-    background-image: url(../icons/icon-49.png);
+    background-image: url(../icons/icons8-exit-64.png);
     width: 61px;
     background-repeat: round;
     height: 54px;
@@ -186,8 +186,9 @@ body {
     border: none;
     height: 55px;
     margin-top: 4%;
+    margin-bottom: 25px;
     margin-right: 9%;
-    font-size: 24px;
+    font-size: 20px;
     cursor: pointer;
 }
 
