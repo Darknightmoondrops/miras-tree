@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style/register-place.css">
+    <title>Document</title>
+</head>
+
+<body dir="rtl">
+    <div class="register-place-box">
+        <div class="go-main-panel">
+            <div class="home-icon"></div>
+            <p class="dashboard"><b>داشبورد</b></p>
+        </div>
+        <div class="mid-register-place-box">
+            <div class="level-one">
+                <div class="level-one-details">
+                    <div class="reagent-code">
+                        <p class="reagent-code-title">کد معرف</p>
+                        <input type="text" class="reagent-code-input" placeholder="کد معرف">
+                    </div>
+                    <div class="reagent-info-all">
+                        <p class="reagent-info-title"><b> اطلاعات معرف :</b></p>
+                        <p class="text-register-info">arian</p>
+                        <div class="mobile-info">
+                            <p class="text-register-info">موبایل :</p>
+                            <p class="text-register-info">0911111111</p>
+                        </div>
+                        <div class="mobile-info">
+                            <p class="text-register-info">نام کاربری :</p>
+                            <p class="text-register-info">ِdark</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="level-two">
+                <p class="level-two-title">انتخاب سرگروه</p>
+                <div class="parent-gp">
+                    <p class="parent-detail">arian</p>
+                </div>
+            </div>
+            <div class="level-three">
+                <p class="level-two-title"><b>انتخاب جایگاه</b></p>
+                <input type="text" class="top-parent" name="" id="">
+                <div class="parent-inp">
+                    <input type="text" id="right-side" value="">
+                    <input type="text" id="left-side" value="">
+                </div>
+                <div class="place-one" onclick="checkPlace(1)"><input type="radio" name="parent" id="parent ">
+                    <label for="parent " class="check-place-all">انتخاب جایگاه چپ</label></div>
+                <div class="place-two" onclick="checkPlace(2)"><input type="radio" name="parent" id="parent1 ">
+                    <label for="parent1 " class="check-place-all">انتخاب جایگاه راست</label></div>
+            </div>
+            <div class="level-four ">
+                <div class="req-level-four ">
+                    <div class="question-static-icon "></div>
+                    <div class="all-info ">
+
+                        <p class="all-info-text ">کد معرف :</p>
+                        <p class="all-info-text ">1111</p>
+                        <p class="all-info-text ">اطلاعات سرگروه :</p>
+                        <p class="all-info-text ">ارین</p>
+                        <div class="name-info ">
+                            <p class="all-info-text ">نام کاربری :</p>
+                            <p class="all-info-text ">Dark</p>
+                        </div>
+                        <p class="all-info-text ">جایگاه انتخابی :</p>
+                        <p class="all-info-text ">جایگاه چپ</p>
+                        <p class="all-info-text ">آیا از انتخاب خود اطمینان دارید ؟</p>
+
+                    </div>
+                    <div class="acc-dec-btn ">
+                        <div class="dec-btn ">
+                            <div class="dec-icon "></div>
+                            <p class="dec-text ">خیر</p>
+                        </div>
+                        <div class="accept-btn ">
+                            <div class="acc-icon "></div>
+                            <p class="acc-text ">بله</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="prev-level ">مرحله قبلی</button>
+        <div>
+            <ol class="track-progress ">
+                <li class="done ">
+                    <em>مرحله ثبت نام اولیه</em>
+                    <span>مرحله ثبت نام اولیه</span>
+                </li>
+                <li class="done ">
+                    <em>مرحله احراز هویت</em>
+                    <span>مرحله احراز هویت</span>
+                </li>
+                <li class="todo ">
+                    <em>تکمیل فرم ثبت نام</em>
+                    <span>تکمیل فرم ثبت نام</span>
+                </li>
+                <li class="todo ">
+                    <em>اطلاعات مکانی</em>
+                    <span>اطلاعات مکانی</span>
+                </li>
+            </ol>
+        </div>
+
+    </div>
+    <script src="./js/register-place.js "></script>
+</body>
+
+</html>

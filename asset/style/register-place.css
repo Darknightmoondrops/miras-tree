@@ -1,0 +1,194 @@
+.home-icon {
+    background-image: url(../icons/home.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 38px;
+    height: 38px;
+    display: block;
+    margin: auto;
+}
+
+.go-main-panel {
+    display: flex;
+    justify-content: right;
+    width: 200px;
+}
+
+.dashboard {
+    width: 70%;
+}
+
+.mid-register-place-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.level-one {
+    width: 25%;
+    height: auto;
+    display: block;
+}
+
+.level-two {
+    width: 25%;
+    display: block;
+}
+
+.level-three {
+    width: 25%;
+    display: block;
+}
+
+.level-four {
+    width: 23%;
+    display: block;
+}
+
+.reagent-code-title {
+    color: #cfcfcf;
+}
+
+.reagent-code-input {
+    width: 75%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #cfcfcf;
+    margin-bottom: 30px;
+}
+
+.level-one-details {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.reagent-info-title {
+    color: #cfcfcf;
+}
+
+.text-register-info {
+    color: #cfcfcf;
+}
+
+.mobile-info {
+    display: flex;
+    justify-content: right;
+}
+
+.parent-gp {
+    width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.level-two {
+    text-align: center;
+    color: #cfcfcf;
+}
+
+.parent-inp {
+    display: flex;
+    margin: auto;
+}
+
+.parent-inp input {
+    width: 90px;
+    height: 50px;
+    display: block;
+    border: 1px solid #cfcfcf;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.top-parent {
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    border: 1px solid #cfcfcf;
+    border-radius: 20px;
+}
+
+.all-info-text {
+    color: #2c2c2c;
+}
+
+.question-static-icon {
+    background-image: url(../icons/question\(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 38px;
+    height: 38px;
+    display: block;
+    margin-right: 10px;
+}
+
+.req-level-four {
+    width: 90%;
+    height: auto;
+    padding-top: 10px;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.all-info {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.dec-icon {
+    background-image: url(../icons/failed.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+}
+
+.acc-icon {
+    background-image: url(../icons/checked.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+}
+
+.acc-dec-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dec-btn {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    background-color: rgb(255, 172, 172);
+    border-bottom-right-radius: 20px;
+}
+
+.dec-text {
+    width: 80%;
+    text-align: center;
+}
+
+.acc-text {
+    width: 80%;
+    text-align: center;
+}
+
+.accept-btn {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    background-color: rgb(128, 255, 128);
+    border-bottom-left-radius: 20px;
+}

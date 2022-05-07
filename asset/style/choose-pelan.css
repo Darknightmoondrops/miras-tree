@@ -1,0 +1,62 @@
+.all-choose-pelan {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.if-choose-panel {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.choose-panels {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    border: 3px solid #cfcfcf;
+    border-radius: 10px;
+}
+
+.panel-de {
+    width: 45%;
+    height: 60px;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.panel-one {
+    background-color: rgb(73, 73, 255);
+    cursor: pointer;
+}
+
+.panel-two {
+    background-color: #cfcfcf;
+    cursor: pointer;
+}
+
+.if-not-choose-panel {
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    color: rgb(255, 206, 116);
+}
+
+.pelan-product {
+    background-color: #fff;
+    border: 1px solid green;
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    color: green;
+    cursor: pointer;
+}
+
+.pelan-product:hover {
+    background-color: rgb(221, 255, 221);
+}
